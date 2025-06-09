@@ -1,16 +1,76 @@
-# unidade4
+# Flutter Animations App - Unidade 4
 
-A new Flutter project.
+Um aplicativo Flutter com sistema de navegação e animações em dark mode.
 
-## Getting Started
+## 📱 Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+Aplicativo desenvolvido em Flutter que demonstra navegação entre 4 telas com animações fade in/fade out, hero animations e design dark mode.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ 4 telas com navegação fluida
+- ✅ Animações fade in/fade out entre telas
+- ✅ Hero Animation para expansão de cards
+- ✅ Dark mode em todas as telas
+- ✅ Design responsivo com Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologias Utilizadas
+
+- **Flutter** - Framework de desenvolvimento
+- **Dart** - Linguagem de programação
+- **AnimationController** - Controle de animações
+- **Hero Widget** - Animações de transição
+
+## 📁 Estrutura do Projeto
+
+```
+lib/
+├── main.dart
+├── screens/
+│   ├── tela_inicial.dart
+│   ├── tela1.dart
+│   ├── tela2.dart
+│   ├── tela3.dart
+│   └── card_expandido.dart
+└── widgets/
+    └── botao_navegacao.dart
+```
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/lucascantodev/DDM-Unidade-4.git
+```
+
+2. Instale as dependências:
+```bash
+flutter pub get
+```
+
+3. Execute o aplicativo:
+```bash
+flutter run
+```
+
+## 🎮 Como Usar
+
+- **Tela Inicial:** Toque no card roxo para expandir (Hero Animation)
+- **Navegação:** Use os botões coloridos para navegar com fade entre telas
+- **Animações:** Todas as transições são automáticas e fluidas
+
+## 🚀 Gerar APK
+
+```bash
+flutter build apk --release
+```
+
+## 📱 Plataformas Suportadas
+
+- ✅ Android
+- ✅ iOS  
+- ✅ Web
+
+## 👨‍💻 Desenvolvedor
+
+Desenvolvido por **Lucas** como parte da Unidade 4 de Desenvolvimento de Dispositivos Móveis (DDM).
